@@ -143,7 +143,7 @@ const FacialRecognition = props => {
     }
   };
 
-  const API_URL = 'http://192.168.100.4:5000/face';
+  const API_URL = 'http://stag-clickgateway.lmkr.com/facial';
 
   const handleRegisterFace = async finalPhoto => {
     const formData = new FormData();
@@ -316,6 +316,7 @@ const FacialRecognition = props => {
                   ? { borderColor: 'gray' }
                   : {},
               ]}
+              disabled={!facesData || facesData.length !== 1}
             />
             <TouchableOpacity
               style={styles.switchButton}

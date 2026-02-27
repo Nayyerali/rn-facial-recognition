@@ -26,7 +26,7 @@ function App() {
         }}
       >
         <Text style={{ fontSize: 20, fontWeight: 'bold', textAlign: 'center' }}>
-          Facial Recognition App
+          Facial Recognition Demo App
         </Text>
         <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
           <Button
