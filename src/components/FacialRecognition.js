@@ -143,7 +143,7 @@ const FacialRecognition = props => {
     }
   };
 
-  const API_URL = 'http://stag-clickgateway.lmkr.com/facial';
+  const API_URL = 'https://stag-clickgateway.lmkr.com/facial';
 
   const handleRegisterFace = async finalPhoto => {
     const formData = new FormData();
